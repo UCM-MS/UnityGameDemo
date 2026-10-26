@@ -15,7 +15,7 @@ public class FirstPersonController : MonoBehaviour
 
     private static class AnimationParameters
     {
-        //Speed, Strafe, Turn: float values
+        //Speed, Strafe, Turn: float values, text
         //Verbs: triggers
         //Is-X: boolean values
         public static readonly int IsMoving = Animator.StringToHash("IsMoving"); //1P
